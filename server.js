@@ -1,4 +1,5 @@
 import express from 'express'
+import db from './db/db.js';
 
 //express serve para configurar o http
 
