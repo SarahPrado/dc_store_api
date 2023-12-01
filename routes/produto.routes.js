@@ -8,8 +8,8 @@ export const routeProduto = ()=>{
     router.post('/', produtoController.create)
     router.get('/', produtoController.findAll)
     router.get('/:id', produtoController.findById)
-    router.get('/:status', produtoController.findByStatus)
-    router.put('/:id', produtoController.update)
+    router.get('/status/:status', produtoController.findByStatus)
+    router.patch('/:id', produtoController.update)
     router.delete('/:id', produtoController.deleteById)
     router.delete('/', produtoController.deleteALL)
 
