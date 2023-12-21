@@ -26,6 +26,6 @@ const HOST = 'localhost'
 const PORT = 5000
 
 
-app.listen(port,()=>{
-    console.log(`Server working in http://${host}:${port}`)
+app.listen(PORT,()=>{
+    console.log(`Server working in http://${HOST}:${PORT}`)
 })
