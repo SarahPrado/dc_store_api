@@ -6,6 +6,6 @@ export const DB_CONFIG = {
     PORT: 5432,
     USER: process.env.USER,
     PASSWORD: process.env.PASSWORD,
-    DB:'dc_fwzz', 
+    DB:'dc_5fzv', 
     DIALECT: 'postgres'
 }
